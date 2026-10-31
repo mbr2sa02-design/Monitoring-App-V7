@@ -95,7 +95,7 @@
    so the rest of the app is unchanged. Backend: Apps Script web app (Code.gs)
    writing to a Google Sheet. Set the two values below (the URL ends with /exec).
    ============================================================================ */
-const SHEETS_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const SHEETS_URL = "https://script.google.com/macros/s/AKfycbzoPlqJmDdmFDmn4YvJHBEv4w49EYi27rDcNNFv4TjnMi3YmbmnQyHA1pInK-EEWmRq/exec";
 const SHEETS_TOKEN = "MBR2-3d1d5ce2e69e8bfb";
 const _sbReady = /^https:\/\/script\.google\.com\//.test(SHEETS_URL);
 if(!_sbReady) console.warn('Google Sheets storage is not configured — set SHEETS_URL and SHEETS_TOKEN near the top of this file. Data will not save.');
